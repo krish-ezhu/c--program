@@ -1,8 +1,9 @@
 //Write a C++  Program to print Welcome
 #include <iostream>
+using namespace std;
 int main()
 {
-    std::cout<<"Hello World";
+    cout<<"Welcome...";
 
     return 0;
 }
