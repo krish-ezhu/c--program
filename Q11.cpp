@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
-    int num1,num2,sum;
+    int num1,num2,diff;
     cout<<"Enter a number 1 : ";
     cin>>num1;
     cout<<"Enter a number 2 : ";
     cin>>num2;
-    sum=num1-num2;
-    cout<<sum;
+    diff=num1-num2;
+    cout<<diff;
     return 0;
 }
