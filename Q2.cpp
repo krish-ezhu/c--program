@@ -1,4 +1,4 @@
-
+//Write a C++ Program to print the given word.
 #include <iostream>
 using namespace std;
 int main()
