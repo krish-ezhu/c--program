@@ -1,3 +1,4 @@
+//Write a C++ Program to print the square of a number.
 #include <iostream>
 using namespace std;
 int main()
@@ -7,4 +8,5 @@ int main()
     cin>>num;
     cout<<" Square of given Number  : "<<num*num;
     return 0;
+
 }
