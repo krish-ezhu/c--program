@@ -4,15 +4,14 @@
 using namespace std;
 int main()
 {
-    int num1,num2,new1,new2,sum;
-    cout<<"Enter a number 1 : ";
-    cin>>num1;
-    cout<<"Enter a number 2 : ";
-    cin>>num2;
-    new1=num1%10;
-    new2=num2%10;
-    sum=new1+new2;
-    cout<<" Sum last Digits : "<<sum;
+    int num,first,last,sum;
+    cout<<"Enter a number  : ";
+    cin>>num;
+    last = num%10;
+    first =num%100; 
+    sum=first+last;    
+    cout<<" Sum  and last Digits : "<<sum;
     return 0;
 
 }
+
