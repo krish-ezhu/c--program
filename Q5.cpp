@@ -1,14 +1,11 @@
-//Write a C++ Program to print the given fractional number .
+//Write a C++ Program to print the given fractional number.
 #include <iostream>
 using namespace std;
 int main()
 {
-    int num,fact=1;
-    cout<<"Enter a number : ";
+    float num;
+    cout<<"Enter your CGPA : ";
     cin>>num;
-    for(int i=1;i<=num;i++){
-        fact*=i;
-    }
-    cout<<"Factorial : "<<fact;
+    cout<<" Your CGPA is : "<<num;
     return 0;
 }
