@@ -4,13 +4,9 @@
 using namespace std;
 int main()
 {
-    int num;
-    float fact=1;
-    cout<<"Enter a number : ";
+    float num;
+    cout<<"Enter Your CGPA : ";
     cin>>num;
-    for(int i=1;i<=num;i++){
-        fact*=i;
-    }
-    cout<<"Factorial : "<<fixed<<setprecision(2)<<fact;
+    cout<<" Your CGPA is : "<<fixed<<setprecision(2)<<num;
     return 0;
 }
